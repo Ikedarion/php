@@ -1,0 +1,45 @@
+.result__content {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 60px 15px;
+}
+
+.result {
+    text-align: center;
+}
+
+.result__text--correct {
+    color: #ff0000;
+}
+
+.result__text--incorrect {
+    color: #0000ff;
+}
+
+.answer-table {
+    width: 95vw;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+.answer-table__inner {
+    width: 100%;
+}
+
+.answer-table__header {
+    width: 20%;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.answer-table__text {
+    border-bottom: 1px solid #ddd;
+    padding-left: 15px;
+}
+
+.answer-table__row:last-child .answer-table__header,
+.answer-table__row:last-child .answer-table__text {
+    border-bottom-width: 0;
+}
